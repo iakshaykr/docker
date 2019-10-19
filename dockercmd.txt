@@ -1,0 +1,771 @@
+    1  exit
+    2  clear
+    3  ls
+    4  ping ubuntu2
+    5  ping 192.168.102.138
+    6  clear
+    7  cd ansible/
+    8  ls
+    9  cd data/
+   10  ls
+   11  ansible-playbook main.yml --ask-become-pass
+   12  cd
+   13  cd /etc/ansible/
+   14  ls
+   15  sudo nano hosts 
+   16  cd
+   17  cd ansible/
+   18  cd data/
+   19  ls
+   20  ansible-playbook main.yml --ask-become-pass
+   21  ls
+   22  nano main.yml 
+   23  cd
+   24  cd /etc/ansible/
+   25  nano hosts 
+   26  cd
+   27  cd ansible/
+   28  ls
+   29  cd data/
+   30  l
+   31  ansible-playbook main.yml --ask-become-pass
+   32  ansible -m pin host
+   33  ansible -m ping host
+   34  ansible-playbook main.yml --ask-become-pass
+   35  ps aux | grep -i apt
+   36  ansible-playbook main.yml --ask-become-pass
+   37  ansible -m ping host
+   38  ansible-playbook main.yml --ask-become-pass
+   39  sudo apt-get upadte
+   40  sudo apt-get update
+   41  sudo apt-get update
+   42  ifconfig
+   43  ls
+   44  cd /etc/ansible/
+   45  sudo nano hosts 
+   46  cd
+   47  ansible -m ping myhost
+   48  systemctl status apache2
+   49  sudo apt-get purge apache2
+   50  systemctl status apache2
+   51  ls
+   52  ansible-playbook apache2.yml 
+   53  cd /etc/ansible/
+   54  sudo nano hosts 
+   55  cd
+   56  ansible -m ping myhost
+   57  cd /etc/ansible/
+   58  sudo nano hosts 
+   59  ansible -m ping all
+   60  cd
+   61  nano apache2.yml 
+   62  cd /etc/ansible/
+   63  sudo nano hosts 
+   64  ansible -m ping all
+   65  cd 
+   66  cd .ssh
+   67  ls
+   68  rm known_hosts 
+   69  ls
+   70  cd
+   71  ansible -m ping all
+   72  cd .ssh
+   73  ls
+   74  nano authorized_keys 
+   75  rm authorized_keys 
+   76  ls
+   77  rm known_hosts 
+   78  ls
+   79  cat id_rsa.pub 
+   80  cd
+   81  ssh ubuntu2@192.168.102.138
+   82  ansible -m ping all
+   83  ansible -m ping all --ask-become-pass
+   84  cd /etc/ansible/
+   85  ls
+   86  nano ansible.cfg 
+   87  sudo nano hosts 
+   88  ansible -m ping all
+   89  sudo nano hosts 
+   90  ansible -m ping all
+   91  ansible -m ping 192.168.102.137
+   92  sudo nano hosts 
+   93  ansible -m ping 192.168.102.137
+   94  cd
+   95  ansible -m ping all
+   96  cd /etc/ansible/
+   97  sudo nano hosts 
+   98  ansible -m ping all
+   99  CD
+  100  cd
+  101  cd .ssh
+  102  ls
+  103  nano known_hosts 
+  104  rm known_hosts 
+  105  ansible -m ping all
+  106  ls
+  107  ping 192.168.102.137
+  108  ls
+  109  cd  ..
+  110  ls
+  111  cat hosts 
+  112  rm hosts 
+  113  nano apache2.yml 
+  114  cd /etc/ansible/
+  115  sudo nano hosts 
+  116  ansible -m ping all
+  117  sudo nano hosts 
+  118  ansible -m ping all
+  119  sudo nano hosts 
+  120  ansible -m ping host
+  121  systemctl status ssh
+  122  systemctl restart ssh
+  123  ansible -m ping host
+  124  cd
+  125  cat .ssh/id_rsa.pub >> .ssh/authorized_keys
+  126  ansible -m ping host
+  127  cd /etc/ansible/
+  128  sudo nano hosts 
+  129  ansible -m ping host
+  130  sudo nano hosts 
+  131  ansible -m ping host
+  132  sudo nano hosts 
+  133  ansible -m ping host
+  134  sudo nano hosts 
+  135  ansible -m ping host
+  136  cd
+  137  cd .ssh
+  138  ls
+  139  nano authorized_keys 
+  140  ansible -m ping host
+  141  cd
+  142  cd /etc/ansible/
+  143  sudo nano hosts 
+  144  ansible -m ping host
+  145  cd
+  146  cd .ssh
+  147  cat id_rsa.pub 
+  148  ansible -m ping host
+  149  cd
+  150  sudo nano hosts 
+  151  cd /etc/ansible/
+  152  sudo nano hosts 
+  153  ansible -m ping host
+  154  cd
+  155  sudo apt-get install sshpass python-yaml
+  156  clear
+  157  cd /etc/ansible/
+  158  ls
+  159  sudo nano ansible.cfg 
+  160  ansible -m ping host
+  161  sudo nano ansible.cfg 
+  162  ls
+  163  cd roles/
+  164  ls
+  165  cd ..
+  166  ls
+  167  sudo nano ansible.cfg 
+  168  ls
+  169  cd ..
+  170  ls
+  171  cd
+  172  cd ansible/
+  173  ls
+  174  pwd
+  175  cd
+  176  cd /etc/ansible/
+  177  ls
+  178  cp ansible.cfg hosts /home/ubuntu1/ansible
+  179  cp ansible.cfg hosts /home/ubuntu1/ansible
+  180  cd /home/ubuntu1/ansible/
+  181  ls
+  182  cd
+  183  ls
+  184  cd ansible/
+  185  ansible -m ping host
+  186  nano hosts 
+  187  cat hosts 
+  188  ls
+  189  nano apache2.yml 
+  190  nano hosts 
+  191  ansible -m ping host
+  192  nano hosts 
+  193  cd
+  194  cd /etc/ansible/
+  195  sudo nano hosts 
+  196  ansible -m ping host
+  197  cd
+  198  cd ansible/
+  199  ls
+  200  cd
+  201  cd /etc/ansible/
+  202  ls
+  203  sudo nano hosts 
+  204  cd
+  205  /home/vagrant/.ssh/id_rsa
+  206  /home/vagrant/
+  207  ansible 192.168.102.138 -u roott -k
+  208  ansible 192.168.102.138 -u root -k
+  209  ansible 192.168.102.138 -u ping --ask-become-pass
+  210  ansible 192.168.102.138 -m ping --ask-become-pass
+  211  ansible 192.168.102.138 -m ping root
+  212  ansible 192.168.102.138 -m ping-u  root
+  213  ansible -m ping host
+  214  cd /etc/ansible/
+  215  ls
+  216  sudo nano hosts 
+  217  ansible -m ping host
+  218  sudo nano hosts 
+  219  ansible -m ping host
+  220  sudo nano hosts 
+  221  ansible -m ping host
+  222  whoami
+  223  cd
+  224  ansible-playbook apache2.yml -i hosts -u ubuntu2 -k --aks-sudo-pass
+  225  ansible-playbook apache2.yml -i hosts -u ubuntu2 -k --ask-sudo-pass
+  226  ansible-playbook apache2.yml -i hosts -u ubuntu2 -k --ask-cecome-pass
+  227  ansible-playbook apache2.yml -i hosts -u ubuntu2 -k --ask-become-pass
+  228  ansible -m ping hosts
+  229  cd /etc/ansible/
+  230  ls
+  231  sudo nano hos
+  232  sudo nano hosts
+  233  ansible -m ping host
+  234  ansible -m ping host --vvv
+  235  ansible -m ping host -vvv
+  236  ansible -m ping host -vvvv
+  237  clear
+  238  sudo nano hosts
+  239  ansible -m ping host -vvv
+  240  cd
+  241  ansible-playbook apache2.yml --ask-become-pass
+  242  cd ansible/
+  243  ls
+  244  git status
+  245  git remote -v
+  246  git push -u origin master
+  247  git commit -m "updated"
+  248  git config --global user.email "iakshaykr@github.com"
+  249  git config --global user.name "iakshaykr"
+  250  git commit -m "updated"
+  251  git status
+  252  git push -u origin master
+  253  git status
+  254  git add .
+  255  git commit -m "updated"
+  256  git push -u origin master
+  257  git status
+  258  ls
+  259  cat hosts 
+  260  pwd
+  261  cd
+  262  cd /etc/ansible/
+  263  ls
+  264  cp hosts /home/ubuntu1/ansible/
+  265  cd
+  266  cd ansible/
+  267  ls
+  268  sudo nano hosts 
+  269  git status
+  270  git add .
+  271  git commit -m "bug fixed"
+  272  git push -u origin master
+  273  ls
+  274  sudo nano apache2.yml 
+  275  cd
+  276  ls
+  277  nano apache2.yml 
+  278  ansible-palybook apache2.yml 
+  279  ansible-playbook apache2.yml 
+  280  ansible-playbook apache2.yml --ask-become-pass
+  281  ls
+  282  cat apache2.yml 
+  283  ls
+  284  cd ansible/
+  285  ls
+  286  cat ansi.py 
+  287  cd
+  288  cd ansible/
+  289  ls
+  290  cat ansible.yml 
+  291  clear
+  292  git status
+  293  ls
+  294  git pull https://github.com/iakshaykr/ansible.git
+  295  ls
+  296  git pull https://github.com/iakshaykr/ansible.git
+  297  ls
+  298  clear
+  299  cd
+  300  ls
+  301  cd /etc
+  302  ls
+  303  clear
+  304  cd
+  305  ls
+  306  mkdir data
+  307  cd data/
+  308  touch server.xml
+  309  nano server.xml 
+  310  nano tomcat-users.xml
+  311  nano main.xml
+  312  nano main.yml
+  313  ls
+  314  nano main.yml 
+  315  touch tomcat-initscript.sh
+  316  nano tomcat-initscript.sh 
+  317  ansible -m ping host
+  318  cat hosts
+  319  cd 
+  320  cd ansible/
+  321  cat hosts 
+  322  clear
+  323  cd
+  324  ls
+  325  cd data/
+  326  ls
+  327  clear
+  328  ansible-playbook main.yml --ask-become-pass
+  329  nano main.yml 
+  330  ansible-playbook main.yml --ask-become-pass
+  331  nano main.yml 
+  332  ansible-playbook main.yml --ask-become-pass
+  333  nano main.yml 
+  334  cd
+  335  cd ansible/
+  336  cat apache2.yml 
+  337  cd
+  338  cd data/
+  339  nano main.yml 
+  340  ansible-playbook main.yml --ask-become-pass
+  341  nano main.yml 
+  342  ansible-playbook main.yml --ask-become-pass
+  343  nano main.yml 
+  344  ansible-playbook main.yml --ask-become-pass
+  345  nano main.yml 
+  346  ansible-playbook main.yml --ask-become-pass
+  347  nano main.yml 
+  348  ansible-playbook main.yml --ask-become-pass
+  349  nano main.yml 
+  350  ansible-playbook main.yml --ask-become-pass
+  351  nano main.yml 
+  352  ansible-playbook main.yml --ask-become-pass
+  353  nano main.yml 
+  354  ls
+  355  cat tomcat-initscript.sh 
+  356  nano main.yml 
+  357  ansible-playbook main.yml --ask-become-pass
+  358  nano main.yml 
+  359  ansible-playbook main.yml --ask-become-pass
+  360  nano main.yml 
+  361  cd
+  362  cd ansible/
+  363  nano apache2.yml 
+  364  cd
+  365  cd data/
+  366  nano main.yml 
+  367  ansible-playbook main.yml --ask-become-pass
+  368  nano tomcat-servers
+  369  ansible-playbook main.yml --ask-become-pass
+  370  nano main.yml 
+  371  ansible-playbook main.yml --ask-become-pass
+  372  nano main.yml 
+  373  ansible-playbook main.yml --ask-become-pass
+  374  nano main.yml 
+  375  ansible-playbook main.yml --ask-become-pass
+  376  nano main.yml 
+  377  ansible-playbook main.yml --ask-become-pass
+  378  ls
+  379  mkdir server
+  380  cd server/
+  381  cd ..
+  382  ls
+  383  mv tomcat-servers /home/ubuntu1/server
+  384  ls
+  385  cd server/
+  386  ls
+  387  cd
+  388  cd data/
+  389  cd server/
+  390  pwd
+  391  cd /home/ubuntu1/
+  392  ls
+  393  cat server 
+  394  mv server /home/ubuntu1/data/server
+  395  cd data/
+  396  cd server/
+  397  ls
+  398  nano server 
+  399  cd ..
+  400  ansible-playbook main.yml --ask-become-pass
+  401  ls
+  402  nano server.xml 
+  403  ls
+  404  nano main.yml 
+  405  ansible-playbook main.yml --ask-become-pass
+  406  ls
+  407  cd server/
+  408  ls
+  409  nano server 
+  410  nano server.xml 
+  411  ls
+  412  cd
+  413  cd data/
+  414  ls
+  415  nano main.yml 
+  416  ansible-playbook main.yml --ask-become-pass
+  417  nano server.xml 
+  418  nano main.yml 
+  419  ansible-playbook main.yml --ask-become-pass
+  420  cd server/
+  421  ls
+  422  nano server 
+  423  nano main.yml 
+  424  cd ..
+  425  nano main.yml 
+  426  ansible-playbook main.yml --ask-become-pass
+  427  nano main.yml 
+  428  nano server.xml 
+  429  ansible-playbook main.yml --ask-become-pass
+  430  nano main.yml 
+  431  ansible-playbook main.yml --ask-become-pass
+  432  cd
+  433  ls
+  434  mv data/ /home/ubuntu1/ansible/
+  435  ls
+  436  cd ansible/
+  437  ls
+  438  cd data/
+  439  ls
+  440  cd ..
+  441  git status
+  442  git branch tomcat8
+  443  git branch
+  444  git checkout tomcat8
+  445  git status
+  446  git add .
+  447  git commit -m "tomcat8"
+  448  git push -u origin tomcat8
+  449  ls
+  450  cd data/
+  451  ls
+  452  rm -rf server
+  453  ls
+  454  ansible-playbook main.xml --ask-become-pass
+  455  ansible-playbook main.yml --ask-become-pass
+  456  git status
+  457  git add .
+  458  git commit -m "deleted not required"
+  459  git push -u origin tomcat8
+  460  ls
+  461  mkdir roles
+  462  cd roles/
+  463  ansible-galaxt init deployapp
+  464  ansible-galaxy init deployapp
+  465  ls
+  466  cd deployapp/
+  467  ls
+  468  cd defaults/
+  469  ls
+  470  nano main.yml 
+  471  cd ..
+  472  ls
+  473  cd data/
+  474  ls
+  475  nano main.yml 
+  476  cd da
+  477  cd roles/
+  478  ls
+  479  cd deployapp/
+  480  ls
+  481  cd defaults/
+  482  ls
+  483  nano main.yml 
+  484  ls
+  485  cd ..
+  486  ls
+  487  cd handlers/
+  488  ls
+  489  nano main.yml 
+  490  ls
+  491  cd ..
+  492  ls
+  493  cd ..
+  494  ls
+  495  cd ..
+  496  ls
+  497  cd roles/
+  498  ls
+  499  cd deployapp/
+  500  ls
+  501  cd templates/
+  502  ls
+  503  pwd
+  504  cd ..
+  505  ls
+  506  cp server.xml /home/ubuntu1/ansible/data/roles/deployapp/templates
+  507  cp tomcat-users.xml /home/ubuntu1/ansible/data/roles/deployapp/templates
+  508  ls
+  509  cd roles/
+  510  ls
+  511  cd ro
+  512  ls
+  513  cd deployapp/
+  514  ls
+  515  cd templates/
+  516  ls
+  517  cd ..
+  518  ls
+  519  cd data/
+  520  ls
+  521  cd
+  522  cd /etc/ansible/
+  523  ls
+  524  cd roles/
+  525  ls
+  526  cd
+  527  cd ansible/
+  528  cd data/
+  529  cd roles/
+  530  ls
+  531  cd deployapp/
+  532  ls
+  533  cd ..
+  534  ls
+  535  nano deploy.yml
+  536  cat main.yml 
+  537  nano deploy.yml
+  538  ls
+  539  cd roles/
+  540  ls
+  541  cd deployapp/
+  542  ls
+  543  cd tasks/
+  544  ls
+  545  nano main.yml 
+  546  cd .
+  547  cd ..
+  548  ls
+  549  cd tasks/
+  550  ansible-playbook main.yml --ask-become-pass
+  551  nano main.yml 
+  552  ansible-playbook main.yml --ask-become-pass
+  553  nano main.yml 
+  554  ansible-playbook main.yml --ask-become-pass
+  555  nano main.yml 
+  556  ansible-playbook main.yml --ask-become-pass
+  557  cd ..
+  558  ls
+  559  rm deploy.yml 
+  560  ls
+  561  ansible-playbook main.yml --ask-become-pass
+  562  git branch
+  563  ls
+  564  history
+  565  clear
+  566  git status
+  567  ls
+  568  cd roles/
+  569  ls
+  570  cd deployapp/
+  571  ls
+  572  cd.
+  573  cd .
+  574  cd ..
+  575  ls
+  576  git status
+  577  git add .
+  578  git commit -m "not required just for test"
+  579  git push -u origin tomcat8
+  580  cd
+  581  cd .ssh
+  582  ls
+  583  cd
+  584  cd ansible/
+  585  ls
+  586  cd data/
+  587  ls
+  588  cd
+  589  ifconfig
+  590  ping 192.168.102.138
+  591  ls
+  592  cd ansible/
+  593  ls
+  594  nano ansible.yml 
+  595  nano ansi.py 
+  596  git status
+  597  nano apache2.yml 
+  598  cd data/
+  599  ls
+  600  nano main.yml 
+  601  cd ..
+  602  ls
+  603  nano apache2.yml ~
+  604  ansible-playbook apache2.yml 
+  605  ansible-playbook apache2.yml --ask-become-pass
+  606  nano apache2.yml 
+  607  cd ansible/
+  608  ls
+  609  nano apache2.yml 
+  610  ansible-playbook apache2.yml --ask-become-pass
+  611  ls
+  612  cd data/
+  613  ls
+  614  ansible-playbook main.yml 
+  615  ansible-playbook main.yml --ask-become-pass
+  616  cd
+  617  ifconfig
+  618  exit
+  619  clear
+  620  ls
+  621  cd ansible/
+  622  ansible -m ping host
+  623  cd data/
+  624  ls
+  625  ansible-playbook main.yml --ask-become-pass
+  626  cd
+  627  ls
+  628  nano apache2.yml 
+  629  ansible-playbook apache2.yml --ask-become-pass
+  630  cd /etc/ansible/
+  631  sudo nano hosts 
+  632  ansible -m ping host
+  633  cd
+  634  systemctl status apache2
+  635  ansible-playbook apache2.yml 
+  636  ansible-playbook apache2.yml --aks-become-pass
+  637  ansible-playbook apache2.yml --ask-become-pass
+  638  systemctl status apache2
+  639  systemctl status ngnix
+  640  sudo apt-get purge apache2
+  641  systemctl status apache2
+  642  pwd
+  643  ls
+  644  systemctl status apache2
+  645  ls
+  646  ansible -m ping host
+  647  ls
+  648  cd ansible/
+  649  ls
+  650  nano apache2.yml 
+  651  pwd
+  652  cat hosts 
+  653  cd
+  654  cd /etc/ansible/
+  655  cat hosts 
+  656  ls
+  657  sudo nano ansible.cfg 
+  658  ls
+  659  nano ansible.cfg 
+  660  sudo nano ansible.cfg 
+  661  cd .ssh
+  662  ls
+  663  cd
+  664  cd .ssh
+  665  ls
+  666  rm known_hosts 
+  667  ls
+  668  ssh akshaykr@192.168.43.87
+  669  clear
+  670  ls
+  671  cd /etc/ansible/
+  672  sudo nano hosts 
+  673  cd
+  674  ansible -m ping host
+  675  ls
+  676  ansible-playbook apache2.yml --ask-become-pass
+  677  cd ansible/
+  678  ls
+  679  pwd
+  680  /home/akshaykr/ansible
+  681  cd
+  682  cat /etc/ansible/hosts 
+  683  clear
+  684  cd
+  685  sudo apt-get install sshpass
+  686  ls
+  687  cd ansible/
+  688  ls
+  689  nano apache2.yml 
+  690  ansible-playbook apache2.yml 
+  691  nano apache2.yml 
+  692  ansible-playbook apache2.yml 
+  693  pwd
+  694  java.io.IOException: Cannot run program "sshpass" (in directory "/var/lib/jenkins/workspace/yml2"):
+  695  pwd
+  696  ls
+  697  nano hosts 
+  698  cd 
+  699  cd /etc/ansible/
+  700  ls
+  701  nano hosts 
+  702  pwd
+  703  cd
+  704  cd ansible/
+  705  LS
+  706  ls
+  707  pwd
+  708  cd
+  709  which ansible
+  710  cd /usr/bin/
+  711  ls
+  712  cd
+  713  ansible --version
+  714  ifconfig
+  715  cd /etc/ansible/
+  716  nano hosts 
+  717  cd
+  718  cd .ssh
+  719  ls
+  720  cat authorized_keys 
+  721  sudo nano authorized_keys 
+  722  cat authorized_keys 
+  723  clear
+  724  systemctl status apache2
+  725  cd
+  726  systemctl status apache2
+  727  sudo apt-get purge apache2
+  728  systemctl status apache2
+  729  cd .ssh
+  730  ls
+  731  nano authorized_keys 
+  732  rm known_hosts 
+  733  ls
+  734  cd
+  735  ssh 192.168.102.1
+  736  ssh akshaykr@192.168.102.1
+  737  exit
+  738  ls
+  739  cd .ssh
+  740  ls
+  741  ssh-keyscan -H 192.168.43.87 >> ~/.ssh/known_hosts
+  742  cd
+  743  ssh akshaykr@192.168.102.1cd
+  744  systemctl status apache2
+  745* 
+  746  systemctl status apache2
+  747  exit
+  748  history
+  749  logout
+  750  docker images
+  751  sudo docker images
+  752  docker tag ubuntu localhost:5000/ubuntu
+  753  sudo docker tag ubuntu localhost:5000/ubuntu
+  754  docker push localhost:5000/Ubuntu
+  755  docker push localhost:5000/ubuntu
+  756  sudo docker push localhost:5000/ubuntu
+  757  ls
+  758  docker images
+  759  sudo docker images
+  760  docker rmi ubuntu
+  761  sudo docker rmi ubuntu
+  762  sudo docker images
+  763  sudo docker pull localhost:5000/ubuntu
+  764  sudo docker images
+  765  docker run -it--rm localhost:5000/ubuntu/bin/bash
+  766  docker run -it --rm localhost:5000/ubuntu/bin/bash
+  767  sudo docker run -it --rm localhost:5000/ubuntu/bin/bash
+  768  sudo docker images
+  769  sudo docker run -it --rm localhost:5000/ubuntu /bin/bash
+  770  history
+  771  history >>dockercmd.txt

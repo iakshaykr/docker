@@ -1,0 +1,22 @@
+#login into dockerhub 
+
+ sudo docker login --username=abc --password=xyz
+
+#Tag local repo image to dockerhub 
+
+sudo docker tag cf0f3ca922e0 iakshaykr/ubuntu:hello
+
+#/ubuntu is just a repo name which is created in the dockerhub 
+
+
+#push the image which is in local repo/container
+
+sudo docker push iakshaykr/ubuntu
+
+#to remove image
+
+sudo docker rmi repo:tag
+
+#to veiw the images
+
+sudo docker images
