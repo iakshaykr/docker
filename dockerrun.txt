@@ -20,3 +20,7 @@ sudo docker rmi repo:tag
 #to veiw the images
 
 sudo docker images
+
+#pull the image from dockehub
+
+sudo docker pull iakshaykr/dochub:tomcat(tagname)
