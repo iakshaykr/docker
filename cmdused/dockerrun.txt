@@ -29,7 +29,7 @@ sudo docker pull iakshaykr/dochub:tomcat(tagname)
 
 #to remove the container
 
-suod docker rm _____container id
+suod docker rm _____container id/name
 
 #to get the containe id 
 
@@ -40,3 +40,6 @@ or
 sudo docker ps
 
 
+#build the image and convert is as container
+
+sudo docker run -it --name akshayk cd3ed0dfff7e 
