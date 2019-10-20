@@ -11,11 +11,13 @@ sudo docker tag cf0f3ca922e0 iakshaykr/ubuntu:hello
 
 #push the image which is in local repo/container
 
-sudo docker push iakshaykr/ubuntu
+sudo docker push iakshaykr/ubuntu:hello(tagename)
 
 #to remove image
 
-sudo docker rmi repo:tag
+sudo docker rmi repo:tag  #sudo docker rmi iakshaykr/dochub:testing
+
+
 
 #to veiw the images
 
@@ -24,3 +26,17 @@ sudo docker images
 #pull the image from dockehub
 
 sudo docker pull iakshaykr/dochub:tomcat(tagname)
+
+#to remove the container
+
+suod docker rm _____container id
+
+#to get the containe id 
+
+sudo docker ps -a 
+
+or
+
+sudo docker ps
+
+
