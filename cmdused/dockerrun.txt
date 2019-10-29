@@ -43,3 +43,12 @@ sudo docker ps
 #build the image and convert is as container
 
 sudo docker run -it --name akshayk cd3ed0dfff7e 
+
+
+
+
+
+#R&D :::::::::::
+
+sudo docker tag imageid iakshaykr/ubuntu:app
+sudo docker push iakshaykr/ubuntu:app
