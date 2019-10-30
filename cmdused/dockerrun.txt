@@ -56,3 +56,23 @@ sudo docker push iakshaykr/ubuntu:app
 #to force remove the multiple images
 
 sudo docker rmi -f iakshaykr/ubuntu:hey
+
+
+
+
+###to create the container 
+sudo docker run -it --name iakshay cf0f3ca922e0(image id)
+
+modfify the container and craete any image $$$$we need to commit first the container which we have make cahanges 
+
+sudo docker commit  2c2dde5ae674 iakshaykr/ubuntu:imagetest
+
+run that container again to verify 
+
+sudo docker run --name imagetest -it iakshaykr/ubuntu:imagetest
+
+
+
+
+
+
