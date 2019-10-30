@@ -71,8 +71,8 @@ run that container again to verify
 
 sudo docker run --name imagetest -it iakshaykr/ubuntu:imagetest
 
-
-
+OR
+sudo docker run -it --rm iakshaykr/ubuntu:imagetest1
 
 
 
