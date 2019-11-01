@@ -76,3 +76,9 @@ sudo docker run -it --rm iakshaykr/ubuntu:imagetest1
 
 
 
+#create the Dockerfile and then build the iamges 
+
+sudo docker build . -t new_docker1[name of the images]
+
+
+
